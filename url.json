@@ -1,0 +1,12 @@
+{
+    "_default": {
+        "1": {
+            "original_url": "https://www.amazon.in/",
+            "short_url": "http://localhost:8000/da86230"
+        },
+        "2": {
+            "original_url": "https://www.google.com/search?q=what+is+a+setter+function+in+raect&rlz=1C1VDKB_enIN962IN962&oq=what+is+a+setter+function+in+raect&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIJCAEQIRgKGKABMgkIAhAhGAoYoAEyCQgDECEYChigATIGCAQQIRgVMgcIBRAhGJ8FMgcIBhAhGJ8F0gEINjQ4NGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8",
+            "short_url": "http://localhost:8000/677a615"
+        }
+    }
+}
