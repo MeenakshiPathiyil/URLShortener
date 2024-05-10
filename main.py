@@ -4,7 +4,6 @@ import hashlib
 from tinydb import TinyDB, Query
 from pydantic import BaseModel
 import uvicorn
-from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
