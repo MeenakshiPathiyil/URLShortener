@@ -1,5 +1,5 @@
 from fastapi import FastAPI, HTTPException
-from fastapi.responses import RedirectResponse
+from fastapi.responses import RedirectResponse, JSONResponse
 import hashlib
 from tinydb import TinyDB, Query
 from pydantic import BaseModel
@@ -41,7 +41,7 @@ async def shorten_url(request_data: URLInput):
     if result:
         original_url = result[0]["original_url"]
         short_url = result[0]["short_url"]
-        raise HTTPException(status_code=200, detail={"original_url": original_url, "shortened_url": short_url, "Message": "Key already exists"})
+        return JSONResponse(status_code=302, content={"original_url": original_url, "shortened_url": short_url, "Message": "Key already exists"})
 
     hash_algorithm = "sha256"
     hash_length = 7  # Specify the desired length of the hash
@@ -49,7 +49,7 @@ async def shorten_url(request_data: URLInput):
     short_url = f"http://localhost:8000/{hash_value}"
     new_url = {"original_url": url, "short_url": short_url}
     db.insert(new_url)
-    raise HTTPException(status_code=200, detail={"original_url": url, "shortened_url": short_url, "Message": "Short URL generated"})
+    return JSONResponse(status_code=200, content={"original_url": url, "shortened_url": short_url, "Message": "Short URL generated"})
 
 @app.get("/{short_url}/")
 async def redirect(short_url: str):
