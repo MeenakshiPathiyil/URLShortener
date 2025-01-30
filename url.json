@@ -11,6 +11,58 @@
         "3": {
             "original_url": "https://www.onedirectionmusic.com/gb/journal/2020-07-23/10yearsof1d.html",
             "short_url": "http://localhost:8000/5ceabaa"
+        },
+        "4": {
+            "original_url": "https://quizlet.com/explanations/textbook-solutions/statistics-for-engineers-and-scientists-3rd-edition-9780073376332/chapter-4-exercises-4-f986a6bb-ed30-40e9-a04c-f15de567dd76",
+            "short_url": "http://localhost:8000/a08a757"
+        },
+        "5": {
+            "original_url": "https://quizlet.com/explanations/textbook-solutions/engineering-mechanics-statics-8th-edition-9781118919736/chapter-5-exercises-56-3e6674ec-0f0e-4b8c-a581-ae347fb8e043",
+            "short_url": "http://localhost:8000/2871816"
+        },
+        "6": {
+            "original_url": "http://localhost:3000/",
+            "short_url": "http://localhost:8000/f960fc9"
+        },
+        "7": {
+            "original_url": "https://nextjs.org/docs/app/building-your-application/rendering",
+            "short_url": "http://localhost:8000/72f4a91"
+        },
+        "8": {
+            "original_url": "http://vlabs.iitkgp.ac.in/be/exp5/reversebiaseddiode_si.html",
+            "short_url": "http://localhost:8000/04a1890"
+        },
+        "9": {
+            "original_url": "https://nextjs.org/docs/messages/react-client-hook-in-server-component",
+            "short_url": "http://localhost:8000/c92f62e"
+        },
+        "10": {
+            "original_url": "http://localhost:8000/72f4a91",
+            "short_url": "http://localhost:8000/b15f423"
+        },
+        "11": {
+            "original_url": "https://www.makemytrip.com/tripideas/places/bali",
+            "short_url": "http://localhost:8000/f0b12e8"
+        },
+        "14": {
+            "original_url": "https://www.tripadvisor.in/Attraction_Review-g303952-d676508-Reviews-Mount_Batur-Kintamani_Bangli_Bali.html",
+            "short_url": "http://localhost:8000/693ae0e"
+        },
+        "15": {
+            "original_url": "https://www.google.com/search?q=one+direction+fireproof&sca_esv=31a3dd54a4fd3d08&rlz=1C1VDKB_enIN962IN962&sxsrf=ADLYWIJnUapkdRoI5t9BeOuULCfo3lBFEw%3A1716220309822&ei=lXFLZonfMeiJ4-EPp-OxqAk&gs_ssp=eJzj4tVP1zc0TDJLScozNSs2YPQSz89LVUjJLEpNLsnMz1NIA7IKivLz0wD8zA2K&oq=one+direction+fire&gs_lp=Egxnd3Mtd2l6LXNlcnAiEm9uZSBkaXJlY3Rpb24gZmlyZSoCCAEyBRAAGIAEMgUQLhiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMhQQLhiABBiXBRjcBBjeBBjgBNgBA0j7FlCkAliUCHABeAGQAQCYAeIBoAG7B6oBBTAuMy4yuAEDyAEA-AEBmAIHoALdFcICChAAGLADGNYEGEfCAg0QABiABBiwAxhDGIoFwgIOEAAYsAMY5AIY1gTYAQHCAhMQLhiABBiwAxhDGMgDGIoF2AECwgINEAAYgAQYsQMYQxiKBcICChAAGIAEGEMYigXCAgoQLhiABBhDGIoFwgILEAAYgAQYkQIYigXCAgsQLhiABBiRAhiKBZgDAIgGAZAGE7oGBggBEAEYCboGBggCEAEYCLoGBggDEAEYFJIHCTEuMy4yLjctMaAHiDE&sclient=gws-wiz-serp",
+            "short_url": "http://localhost:8000/onedirection"
+        },
+        "16": {
+            "original_url": "https://www.16personalities.com/profile",
+            "short_url": "http://localhost:8000/299b6e4"
+        },
+        "17": {
+            "original_url": "https://leetcode.com/tag/array/",
+            "short_url": "http://localhost:8000/leetcode_array"
+        },
+        "18": {
+            "original_url": "https://codingchallenges.fyi/challenges/challenge-chrome-extension/",
+            "short_url": "http://localhost:8000/09307f4"
         }
     }
 }
