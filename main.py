@@ -44,16 +44,16 @@ async def shorten_url(request_data: URLInput):
         return JSONResponse(status_code=302, content={"original_url": original_url, "shortened_url": short_url, "Message": "Key already exists"})
 
     hash_algorithm = "sha256"
-    hash_length = 7  # Specify the desired length of the hash
+    hash_length = 7  
     hash_value = generate_hash(url, hash_algorithm, hash_length)
-    short_url = f"https://url-shortener-blue-ten.vercel.app/{hash_value}"
+    short_url = f"http://localhost:8000/{hash_value}"
     new_url = {"original_url": url, "short_url": short_url}
     db.insert(new_url)
     return JSONResponse(status_code=200, content={"original_url": url, "shortened_url": short_url, "Message": "Short URL generated"})
 
 @app.get("/{short_url}/")
 async def redirect(short_url: str):
-    result = db.search(URL.short_url == f"https://url-shortener-blue-ten.vercel.app/{short_url}")
+    result = db.search(URL.short_url == f"http://localhost:8000/{short_url}")
     if result:
         long_url = result[0]["original_url"]
         return RedirectResponse(url=long_url)
